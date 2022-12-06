@@ -1,4 +1,4 @@
-[
+export const ids = [
     {
         "name": "A Cell Breeding Device",
         "id": "34541863"

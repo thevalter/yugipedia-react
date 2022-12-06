@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import { Link } from "react-router-dom";
 import { BiSearchAlt2 } from "react-icons/bi";
+import {ids} from "./db/ids";
 
 import './SearchInput.css';
 
@@ -17,7 +18,7 @@ const SearchInput = () => {
     };
 
     useEffect(() => {
-        fetch('../db/ids.json').then(res => res.json()).then(json => setData(json));
+        setData(ids);
       }, []);
   
     return (

@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+import {data} from "./db/data";
+
 import SearchInput from "./SearchInput";
 
 
@@ -33,7 +35,7 @@ const Navbar = () => {
   }
 
   useEffect(() => {
-    fetch('../db/data.json').then(res => res.json()).then(json => setData(json));
+    setData(data);
   }, []);
 
   return (
