@@ -1,0 +1,87 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #17171d;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.container-header h1 a{
+    font-size: 2rem;
+    color: #e4dede;
+    text-decoration: none;
+}
+
+#navbar h2{
+    text-align: center;
+    color: #e4dede;
+    font-size: 1.5rem;
+}
+
+.input-search-wrapper{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button{
+    width: 20%;
+    margin: 2rem auto;
+    cursor: pointer;
+    background-color: #121212;
+    transition: all .3s;
+    border: none;
+    border-radius: 1rem;
+    padding: .7rem 0;
+    font-size: 1rem;
+    color: #e4dede;
+}
+
+form button:hover{
+    padding: .8rem 0;
+    background-color: #191818;
+    font-size: 1.2rem;
+}
+
+.container-select{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.container-select select {
+    margin: 1rem auto;
+    max-width: 30%;
+    height: 1.5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e4dede;
+    color: #a7a1a1;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.container-select select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+@media screen and (max-width: 500px) {
+    #navbar h2{
+        font-size: 1rem;
+    }
+}

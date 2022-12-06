@@ -1,0 +1,45 @@
+.search-container p{
+    font-weight: bold;
+    color: #a09393;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1.5rem auto;
+}
+
+.input-filter-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background-color: #17171d;
+    box-shadow: 10px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+.input-filter-wrapper input{
+    width: 70%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #e4dede;
+    color: #e4dede;
+    font-size: 2vh;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.input-filter-wrapper input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.card-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card-container span{
+    color: #e4dede;
+}

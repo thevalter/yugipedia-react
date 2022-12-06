@@ -1,0 +1,58 @@
+.card-expanded{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+
+.img-wrapper{
+    width: 40%;
+}
+
+.img-wrapper img{
+    max-width: 100%;
+    max-height: 550px;
+}
+
+.content-wrapper{
+    width: 55%;
+}
+
+.content-wrapper p{
+    font-size: 1rem;
+    color: #e4dede;
+    margin-bottom: 1rem;
+}
+
+.content-wrapper span{
+    margin: 0 1rem;
+}
+
+.content-wrapper .prices-sets{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.p-info {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+}
+
+.p-info p{
+    margin: 1rem;
+    padding: .2rem;
+    color: #e4dede;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .content-wrapper p{
+        font-size: .8rem;
+    }
+
+    .img-wrapper{
+        width: 37%;
+    }    
+}
