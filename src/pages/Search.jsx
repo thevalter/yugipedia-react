@@ -31,15 +31,14 @@ const Search = () => {
         <div className="search-container">
             <div className="input-filter-wrapper">
                 <input type="text" autoComplete="off" placeholder="Filter cards..." onChange={_.debounce(e => setSearch(e.target.value.toLowerCase()), 200)} />
-                <p>Results: {filterCards.length}</p>
+                {cards.length === 0 && <p>Loading...</p>}
+                {filterCards.length > 0 && <p>Results: {filterCards.length}</p>}
             </div>
             <div className="card-container">
-                {cards && (
+                {filterCards.length > 0 && (
                     filterCards?.map(card => <Card key={card.id} card={card} />)
                 )}
-                {cards.length > 0 && (
-                    filterCards == 0 && <p>Not results found for: <span>{search}</span></p>
-                )}
+                {filterCards.length === 0 && search != '' && <p>Not results found for: <span>{search}</span></p>}
 
             </div>
         </div>
