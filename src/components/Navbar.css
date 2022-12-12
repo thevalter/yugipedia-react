@@ -61,6 +61,7 @@ form button:hover{
     flex-flow: row wrap;
     margin-top: 2rem;
     width: 100%;
+    gap: 2rem;
 }
 
 .container-select select {
