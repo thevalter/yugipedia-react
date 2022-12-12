@@ -5,7 +5,9 @@
 
 ![Full details](https://github.com/thevalter/yugipedia-react/blob/main/src/assets/readme/fullCard.png)
 
-![Filter cards](https://github.com/thevalter/yugipedia-react/blob/main/src/assets/readme/filterCards.wmv)
+<div>
+    <video src="src/assets/readme/filterCards.wmv"></video>
+</div>
 
 ![]()
 
