@@ -5,11 +5,7 @@
 
 ![Full details](https://github.com/thevalter/yugipedia-react/blob/main/src/assets/readme/fullCard.png)
 
-<div>
-    <video src="src/assets/readme/filterCards.wmv"></video>
-</div>
-
-![]()
+![Filter card](https://ezgif.com/video-to-gif/ezgif-3-1df8e37357.wmv)
 
 ![]()
 
