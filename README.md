@@ -1,8 +1,8 @@
 # About the project
 
-### From fan to fan, this is a web site for search cards the universe Yu-Gi-Oh!, fully responsive website, made with React consuming API from https://ygoprodeck.com/api-guide/
+### From fan to fan, this is a web site for search cards the universe Yu-Gi-Oh!, fully responsive website, made with React consuming API from https://ygoprodeck.com/api-guide/ .
 
-### Link: https://yugipedia.netlify.app/
+### Link: https://yugipedia.netlify.app/ .
 
 # How to use?
 
